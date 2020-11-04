@@ -1,0 +1,14 @@
+CLI command
+
+dotnet user-secrets set "Authentication:Facebook:AppId" "<app-id>"
+dotnet user-secrets set "Authentication:Facebook:AppSecret" "<app-secret>"
+
+goto project folder:
+Example:
+E:\WorkSpace\BITM9_ASPNETCore\Projects\App18_FaceBookAuth\App18_FaceBookAuth
+
+Then issue the command:
+
+E:\WorkSpace\BITM9_ASPNETCore\Projects\App18_FaceBookAuth\App18_FaceBookAuth>dotnet user-secrets set "Authentication:Facebook:AppId" "<app-id>"
+
+E:\WorkSpace\BITM9_ASPNETCore\Projects\App18_FaceBookAuth\App18_FaceBookAuth>dotnet user-secrets set "Authentication:Facebook:AppSecret" "<app-secret>"
